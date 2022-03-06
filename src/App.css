@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.playing-style {
+  background-color: #120c1c !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.shadow {
+  text-shadow: 0px 0px 5px #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatar-song {
+  animation: spin 10s linear infinite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list-songs::-webkit-scrollbar {
+  width: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Track */
+.list-songs::-webkit-scrollbar-track {
+  background: #170f23;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
+/* Handle */
+.list-songs::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888;
+}
+
+/* Handle on hover */
+.list-songs::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@keyframes spin {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }

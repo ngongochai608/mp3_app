@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ngongochai608.github.io/mp3_app/",
+  "homepage": "https://ngongochai608.github.io/mp3_app",
   "name": "zing_mp3",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm runbuild",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

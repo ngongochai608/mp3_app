@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mp3_app/static/css/main.8dc689b7.css",
+    "main.js": "/mp3_app/static/js/main.ad451b5e.js",
+    "index.html": "/mp3_app/index.html",
+    "main.8dc689b7.css.map": "/mp3_app/static/css/main.8dc689b7.css.map",
+    "main.ad451b5e.js.map": "/mp3_app/static/js/main.ad451b5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dc689b7.css",
+    "static/js/main.ad451b5e.js"
+  ]
+}
